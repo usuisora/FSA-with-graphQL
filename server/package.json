@@ -1,0 +1,22 @@
+{
+  "name": "graphql-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "postgraphile --cors -c postgres:postgres:0000@localhost:5432/dblab2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.20",
+    "postgraphile": "^4.3.3"
+  }
+}
